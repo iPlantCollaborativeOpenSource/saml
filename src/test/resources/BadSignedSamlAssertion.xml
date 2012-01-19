@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><saml2:Assertion xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" Version="2.0"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="ds saml2"/></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>EUgManknAOJMZE+5hlSGnjO4UvE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+IJcb4Tx3HLWnJ3L2zjgWOf9DcSPAyixMNmwOYGSwtaB8kZjzqK/JcUeAyNuTs3cXbS2w+NX2A6wt
+mC0KsuWB6Z/sal/fqd589OA9iLbaPfYPVBkIiHMamp+N08GEvDjozT4y7XV2yOvdO2AdaWW/sjEj
+oFTMjnjjrL/5j6Ty/n8CWg4SaebX447b3SxeHMIS34S8H5Z6SSIDYDTA3HoT17y55pDn52In2/y7
+zE1Mhl3ddBG9Mwv7SmViQ3nZ8k4RfoXCQOjxtc+M3ReorrA3wPiSCk8939K+NNN3yFNJFh5jfZyT
+PEGz7Gu0NgqZ3J8KwDNRCdobL0F4EpXLb+JL4w==
+</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICnjCCAYagAwIBAgIES5q8rTANBgkqhkiG9w0BAQUFADARMQ8wDQYDVQQDEwZpUGxhbnQwHhcN
+MTAwMzEyMjIxNDA1WhcNMjAwMzA5MjIxNDA1WjARMQ8wDQYDVQQDEwZpUGxhbnQwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCKh/6RFsAUbPKQ6tCpsCaFj/d5rlI1cKcnPcOaxJQus/+i
+zF0667yOnCvsw2pNdKRuK+FxenUdkUGr8hV99/udrZ17pl5J6jgwOvv6y46Z/0M9UwwzLIEu+A79
+mxZMnfq/kTRaLbBNcBGViqV13OQoh+ynWsohFv3g7zcxzbbNfqmBrh3C15gcMeRnJOyChlM3Ym/I
+H9BfXLmBTAWcpLLINNzZnloxiPZjDVvP5XSerboF4QXjPHZCCOPVompccoTbm1rleVaI72CWkl2y
+NbDkwAv0NPiOgXyhm+RmXn92ZTpm3aX+skbPv7XxtAHkdN23DBtaXEuMUxOYpR4F4T7NAgMBAAEw
+DQYJKoZIhvcNAQEFBQADggEBAGgN4fI6jfLYHPNOc9m2DOMIHgavfD2u+1d/Gy/4SurTVVXoDC/f
+O8CEngCAlwmQNby5oyrqYvrMugPCAUSnNP7FJ24tTjfOf6jdGgMsfXxZUkY579q3LqaTXv3QOaOY
+P+4M0urvmAwfMzSyIOdlzJuT/Vj+5R6v7NkyQaIfnAgEWpr5PFrUjjTH95eSmFzAVVaM5kl1ri7M
+I50v6tucp6t46MSvUVKOmdcXILAv3m6I1i90nQ7F95Ro3UGvMIph3UJKIUeRYBaoeF/dgY//9P8r
+5eTqShnJQxNZrvdMuubnRGE8MVn8dd81bFub78zal5AnPVFbPLB7RVlNLuwJqWY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><saml2:Subject><saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName">nobody@iplantcollaborative.org***I Modified this!***</saml2:NameID></saml2:Subject><saml2:AuthnStatement AuthnInstant="2010-03-10T22:13:18.732Z"><saml2:AuthnContext><saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</saml2:AuthnContextClassRef></saml2:AuthnContext></saml2:AuthnStatement></saml2:Assertion>

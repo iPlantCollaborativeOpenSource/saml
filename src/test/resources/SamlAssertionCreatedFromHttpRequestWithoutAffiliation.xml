@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><saml2:Assertion xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" Version="2.0">
+   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+                  <ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="ds saml2 xs"/>
+               </ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ZxcV4E5C/P6Hdrdg5g+kMd0esB0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+BcGVGQIRD9GbTq5xHFz9mMS9H0XEwCzlVcsa50Bboo7VAmPEiShmSVxdRWd6yrYNb48oj67ZJgIg
+ixkGIZo4FDfQ9uzpdqBylC7WVmZ8hNtbrSvyehCrFhg8nCXm/1h6TMjekRDzeUh5QTD/dCKYQ1JD
+T6YiwKAlXvDJlVye+VaKXz2ZDS4/K9m35CzbuaVaVeechYBZ2LT0KSfjGH2H6xl160na88Orphkb
+F5wJTnQ7pQzEBy1mZtaKd4NLs6at3BoJK0OMxUIf81llYrgm0pzbiqJLgf4s5X6/KTnsoNuJl5dI
+Rw0hbh2baXgj+jrEKxtNjXuCeVcalscHNq1UsA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+         <ds:X509Data>
+            <ds:X509Certificate>MIICnjCCAYagAwIBAgIES5q8rTANBgkqhkiG9w0BAQUFADARMQ8wDQYDVQQDEwZpUGxhbnQwHhcN
+MTAwMzEyMjIxNDA1WhcNMjAwMzA5MjIxNDA1WjARMQ8wDQYDVQQDEwZpUGxhbnQwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCKh/6RFsAUbPKQ6tCpsCaFj/d5rlI1cKcnPcOaxJQus/+i
+zF0667yOnCvsw2pNdKRuK+FxenUdkUGr8hV99/udrZ17pl5J6jgwOvv6y46Z/0M9UwwzLIEu+A79
+mxZMnfq/kTRaLbBNcBGViqV13OQoh+ynWsohFv3g7zcxzbbNfqmBrh3C15gcMeRnJOyChlM3Ym/I
+H9BfXLmBTAWcpLLINNzZnloxiPZjDVvP5XSerboF4QXjPHZCCOPVompccoTbm1rleVaI72CWkl2y
+NbDkwAv0NPiOgXyhm+RmXn92ZTpm3aX+skbPv7XxtAHkdN23DBtaXEuMUxOYpR4F4T7NAgMBAAEw
+DQYJKoZIhvcNAQEFBQADggEBAGgN4fI6jfLYHPNOc9m2DOMIHgavfD2u+1d/Gy/4SurTVVXoDC/f
+O8CEngCAlwmQNby5oyrqYvrMugPCAUSnNP7FJ24tTjfOf6jdGgMsfXxZUkY579q3LqaTXv3QOaOY
+P+4M0urvmAwfMzSyIOdlzJuT/Vj+5R6v7NkyQaIfnAgEWpr5PFrUjjTH95eSmFzAVVaM5kl1ri7M
+I50v6tucp6t46MSvUVKOmdcXILAv3m6I1i90nQ7F95Ro3UGvMIph3UJKIUeRYBaoeF/dgY//9P8r
+5eTqShnJQxNZrvdMuubnRGE8MVn8dd81bFub78zal5AnPVFbPLB7RVlNLuwJqWY=</ds:X509Certificate>
+         </ds:X509Data>
+      </ds:KeyInfo>
+   </ds:Signature>
+   <saml2:Subject>
+      <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName">dennis@iplantcollaborative.org</saml2:NameID>
+   </saml2:Subject>
+   <saml2:AuthnStatement AuthnInstant="2010-03-26T22:19:35.901Z">
+      <saml2:AuthnContext>
+         <saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml2:AuthnContextClassRef>
+      </saml2:AuthnContext>
+   </saml2:AuthnStatement>
+   <saml2:AttributeStatement>
+      <saml2:Attribute Name="shib_session_id" NameFormat="http://auth.iplantcollaborative.org/attributes/">
+         <saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">_c48fdff7369d38536ca87b741f4c35f7</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="shib_identity_provider" NameFormat="http://auth.iplantcollaborative.org/attributes/">
+         <saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">https://gucumatz.iplantcollaborative.org/idp/shibboleth</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="shib_authncontext_class" NameFormat="http://auth.iplantcollaborative.org/attributes/">
+         <saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="persistent_id" NameFormat="http://auth.iplantcollaborative.org/attributes/">
+         <saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">https://gucumatz.iplantcollaborative.org/idp/shibboleth!https://dhcp-96870ab7.ece.arizona.edu/shibboleth!GpsEDgvMAeBMa/8dYqHtxMF4YbY=</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="shib_application_id" NameFormat="http://auth.iplantcollaborative.org/attributes/">
+         <saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">default</saml2:AttributeValue>
+      </saml2:Attribute>
+   </saml2:AttributeStatement>
+</saml2:Assertion>
